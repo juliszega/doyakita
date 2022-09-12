@@ -3,7 +3,11 @@
     <div class="row align-items-center justify-content-lg-between">
         <div class="col-lg-6">
             <div class="copyright text-center  text-lg-left  text-muted">
-                &copy; 2021 Bojonegoro Squad
+            <?php
+  $tanggal = time () ;
+  $tahun= date("Y",$tanggal);
+  echo "2022 - " . $tahun;
+  ?>  &copy; <strong><span>Soya Food & Delicious</span></strong>. All Rights Reserved
             </div>
         </div>
     </div>

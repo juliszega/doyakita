@@ -3,8 +3,8 @@
         <!-- Brand -->
         <div class="sidenav-header  align-items-center">
             <a class="navbar-brand" href="<?= base_url() ?>admin">
-                <i class="fa fa-utensils text-primary"></i>
-                <span class="h2 text-blue"> E-Orest</span>
+                <i class=""></i>
+                <span class="h2 text-blue"> SoyaFood Delicious</span>
             </a>
         </div>
         <div class="navbar-inner">

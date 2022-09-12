@@ -9,7 +9,12 @@
         <a href="https://facebook.com/<?= $facebook ?>" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Bjn Squad</span></strong>. All Rights Reserved
+
+      <?php
+  $tanggal = time () ;
+  $tahun= date("Y",$tanggal);
+  echo "2022 - " . $tahun;
+  ?>  &copy; <strong><span>Soya Food & Delicious</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->
